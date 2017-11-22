@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="dv_rawvault" directorySegmentName="seg_0" id="8F92DADD-4EE1-110D-9FC1-1BA727269C7F">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:27 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<importedID>C8DC4025-AA77-C742-11F7-A0B2050ACC6C</importedID>
+</SchemaObject>

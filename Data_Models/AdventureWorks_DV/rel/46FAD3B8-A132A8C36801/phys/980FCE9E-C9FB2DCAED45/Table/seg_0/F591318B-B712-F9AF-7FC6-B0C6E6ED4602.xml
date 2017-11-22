@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="S_CustomerDetails" directorySegmentName="seg_0" id="F591318B-B712-F9AF-7FC6-B0C6E6ED4602">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<schemaObject>8F92DADD-4EE1-110D-9FC1-1BA727269C7F</schemaObject>
+<database>DB_NULLELEMENT</database>
+<schema>628D3E69-E1BE-AF33-BB5A-6637F16FA5EC</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="FirstName" id="02B34659-99C5-F501-DE85-A0F6373895A4">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="LoadDateTimeStamp" id="1AE2ADDD-249A-9AA6-E6D7-EA265BA84E56">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="H_Customer_H_Customer_HKEY" id="2F8BE24F-D12D-E8A2-9628-E3C4309BD616">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="RecordSource" id="AF78552C-9FAB-FCF8-2D73-0C7F3D3804DF">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="S_CustomerDetails_H_Customer_FK" id="16E52136-E29E-E819-B782-0AFB13FADDEE">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>Adventureworks_DV_DDL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxySqlServerv2k5>

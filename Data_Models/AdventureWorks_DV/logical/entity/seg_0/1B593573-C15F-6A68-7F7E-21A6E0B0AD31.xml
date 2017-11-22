@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B593573-C15F-6A68-7F7E-21A6E0B0AD31" name="H Customer">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:05:05 UTC</createdTime>
+<generatorID>E7DA2D63-3AEF-BDBE-BF4F-C0441FAB8F31</generatorID>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<engineerTo>
+<item key="46FAD3B8-A07B-18A8-50FD-A132A8C36801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="H Customer HKEY" id="D617F39F-1EE8-5435-D45E-5FFBAB56A71A">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:05:05 UTC</createdTime>
+<generatorID>485E7F80-681A-E43A-3C6B-C4858A8710F4</generatorID>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<engineerTo>
+<item key="46FAD3B8-A07B-18A8-50FD-A132A8C36801" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>E7DCD2CD-120A-F7EF-FC7C-25D53CF7A830</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LoadDateTimeStamp" id="2C8BF196-E442-318B-BBF1-807527A93090">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:05:05 UTC</createdTime>
+<generatorID>69DEF14A-D82A-5E2D-F7EA-5EB86A574062</generatorID>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<engineerTo>
+<item key="46FAD3B8-A07B-18A8-50FD-A132A8C36801" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>E41AB186-36A2-0626-49D0-2AAA68B29B1E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RecordSource" id="86CB46E3-EC88-674D-CA1A-992F51821E2F">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:05:05 UTC</createdTime>
+<generatorID>52F705DD-7278-E7D2-CDAB-63ABE171CC7F</generatorID>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<engineerTo>
+<item key="46FAD3B8-A07B-18A8-50FD-A132A8C36801" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D760998F-B3AF-7142-7D4B-471E279C1F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AEBE7461-5153-FF2D-7DCE-BA656ECC6982" name="H Customer PK">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:05:05 UTC</createdTime>
+<generatorID>1F27E8C0-2D65-4093-CCE2-041F038F9840</generatorID>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<engineerTo>
+<item key="46FAD3B8-A07B-18A8-50FD-A132A8C36801" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D617F39F-1EE8-5435-D45E-5FFBAB56A71A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

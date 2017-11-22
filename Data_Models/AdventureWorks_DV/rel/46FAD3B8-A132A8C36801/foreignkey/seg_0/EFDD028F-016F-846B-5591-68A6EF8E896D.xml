@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EFDD028F-016F-846B-5591-68A6EF8E896D" containerWithKeyObject="F591318B-B712-F9AF-7FC6-B0C6E6ED4602" localFKIndex="16E52136-E29E-E819-B782-0AFB13FADDEE" name="S_CustomerDetails_H_Customer_FK">
+<sourceDDLFile>Adventureworks_DV_DDL.ddl</sourceDDLFile>
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<importedID>A5F059B5-58D3-33ED-075F-2E4B6F7F8C07</importedID>
+<referredTableLongName>dv_rawvault.H_Customer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7DA2D63-3AEF-BDBE-BF4F-C0441FAB8F31</referredTableID>
+<keyObject>1F27E8C0-2D65-4093-CCE2-041F038F9840</keyObject>
+<referredKeyID>1F27E8C0-2D65-4093-CCE2-041F038F9840</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>H_Customer_HKEY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

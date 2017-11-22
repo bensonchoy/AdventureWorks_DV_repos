@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F591318B-B712-F9AF-7FC6-B0C6E6ED4602" schemaObject="8F92DADD-4EE1-110D-9FC1-1BA727269C7F" name="S_CustomerDetails">
+<sourceDDLFile>Adventureworks_DV_DDL.ddl</sourceDDLFile>
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<importedID>433DB8B4-77AD-A734-1E4E-88A582C18E7C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="H_Customer_H_Customer_HKEY" id="2F8BE24F-D12D-E8A2-9628-E3C4309BD616">
+<sourceDDLFile>Adventureworks_DV_DDL.ddl</sourceDDLFile>
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<importedID>01C89DBB-AFD5-E7FF-A48F-EA0D0CC8F280</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>E7DCD2CD-120A-F7EF-FC7C-25D53CF7A830</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFDD028F-016F-846B-5591-68A6EF8E896D" referredColumn="485E7F80-681A-E43A-3C6B-C4858A8710F4"/>
+</associations>
+</Column>
+<Column name="LoadDateTimeStamp" id="1AE2ADDD-249A-9AA6-E6D7-EA265BA84E56">
+<sourceDDLFile>Adventureworks_DV_DDL.ddl</sourceDDLFile>
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<importedID>F1E9323F-4B62-7A6D-49B6-235A5A814ECB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>E41AB186-36A2-0626-49D0-2AAA68B29B1E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RecordSource" id="AF78552C-9FAB-FCF8-2D73-0C7F3D3804DF">
+<sourceDDLFile>Adventureworks_DV_DDL.ddl</sourceDDLFile>
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<importedID>CD4FE497-2AF8-1A56-E5CC-4C263F7A8A1B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D760998F-B3AF-7142-7D4B-471E279C1F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="02B34659-99C5-F501-DE85-A0F6373895A4">
+<sourceDDLFile>Adventureworks_DV_DDL.ddl</sourceDDLFile>
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<importedID>6223AE11-EB29-7B03-4580-2BA01D279B33</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D760998F-B3AF-7142-7D4B-471E279C1F91</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16E52136-E29E-E819-B782-0AFB13FADDEE" name="S_CustomerDetails_H_Customer_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:03:28 UTC</createdTime>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F8BE24F-D12D-E8A2-9628-E3C4309BD616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

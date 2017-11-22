@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="S_CustomerDetails_H_Customer_FK" directorySegmentName="seg_0" id="549EA279-3B9E-8A50-69A5-E624C160B525">
+<createdBy>Admin</createdBy>
+<createdTime>2017-11-22 09:05:05 UTC</createdTime>
+<generatorID>EFDD028F-016F-846B-5591-68A6EF8E896D</generatorID>
+<ownerDesignName>AdventureWorks_DV</ownerDesignName>
+<engineerTo>
+<item key="46FAD3B8-A07B-18A8-50FD-A132A8C36801" value="true"/>
+</engineerTo>
+<sourcePk>AEBE7461-5153-FF2D-7DCE-BA656ECC6982</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B593573-C15F-6A68-7F7E-21A6E0B0AD31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EC253195-6A00-B1A8-EF8F-41A605A3FC27</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

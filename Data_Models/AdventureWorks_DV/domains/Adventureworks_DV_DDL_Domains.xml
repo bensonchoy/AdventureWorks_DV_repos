@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Adventureworks_DV_DDL_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="D760998F-B3AF-7142-7D4B-471E279C1F91">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-11-22 09:03:28 UTC</createdTime>
+         <ownerDesignName>AdventureWorks_DV</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>Adventureworks_DV_DDL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Datetime_0_0_0" id="E41AB186-36A2-0626-49D0-2AAA68B29B1E">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-11-22 09:03:28 UTC</createdTime>
+         <ownerDesignName>AdventureWorks_DV</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Adventureworks_DV_DDL_Domains</fileName>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_32" id="E7DCD2CD-120A-F7EF-FC7C-25D53CF7A830">
+         <createdBy>Admin</createdBy>
+         <createdTime>2017-11-22 09:03:28 UTC</createdTime>
+         <ownerDesignName>AdventureWorks_DV</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>32</dataTypeSize>
+         <fileName>Adventureworks_DV_DDL_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>
